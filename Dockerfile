@@ -81,6 +81,7 @@ RUN chown -R node-red:root /usr/src/node-red && \
 
 RUN npm config set cache /data/.npm --global
 RUN npm install node-red-contrib-mqtt-sparkplug-plus
+RUN npm install node-red-contrib-cip-ethernet-ip
 
 USER node-red
 
