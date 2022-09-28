@@ -85,6 +85,7 @@ RUN npm install node-red-contrib-mqtt-sparkplug-plus
 RUN npm install --unsafe-perm sparkplug-client
 RUN npm install --unsafe-perm node-red-contrib-sparkplug
 RUN npm install --unsafe-perm node-red-contrib-ignition-nodes
+RUN npm install --unsafe-perm node-red-contrib-cip-ethernet-ip
 
 USER node-red
 
